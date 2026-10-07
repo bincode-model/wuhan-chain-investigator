@@ -1,0 +1,8 @@
+[
+  "产品设计目标来自交易复核场景，未宣称客户访谈或业务提效测量。来源：server/chain.py、server/catalog.py。金额观察仅适用本次Ethereum样本，不构成投资建议或攻击认定。",
+  "量化公式来自server/catalog.py和server/chain.py当前实现。实际fee含执行gas和可能的blob fee。未计算内部调用、退款、代币转移或地址真实主体。指定历史已finalized交易允许查询，时效门槛作用于采集时的finalized检查点。",
+  "真实执行来自2026-10-06T10:51:30Z本地工具采集，finalized block 26132778 hash 0x34c2d097c0ed5cefd59d0d262854b6be4c1a4719773dc314f41ec7ff59690d91，6笔均成功、3条规则线索，收集3160ms。单笔指定交易0xfd111867ecbe9ecb0a5cb82e94d977788afd486e065d91a9004acef0db1dc393于10:51:33Z验证，fee 0.003915564468998077 ETH，0线索。此处保存的是工具执行摘要，不冒充已冻结的原始RPC快照。合成示例3笔1失败、尝试270与成功外层120来源demo_fixture，不是链上事实。",
+  "来源：server/catalog.py、public/resources/catalog.json及server/chain.py execution_trace。所有阶段确定性执行，按请求触发。Harness约束固定只读来源、网络与关联、时间分层、整数语义、证据重放和有界同源请求。",
+  "测试命令：python3 -m unittest discover -s tests -v，2026-10-06当前43项通过。验证不重新读链，不证明未签名快照真实性。无钱包、无链上写入，无公共合约部署。3条线索是规则触发数量，不是3次攻击或资金损失。",
+  "目标访问地址为 https://wutiantian.cn/eth-investigator/，实际上线状态以发布记录为准。开源发布范围以项目README为准。该背景复用public/media/titanium-wallpaper.png，为静态材质。PPT正文、表格和流程保持原生可编辑，无WebGL实时折射。"
+]
