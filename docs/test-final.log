@@ -1,0 +1,48 @@
+test_blob_fee_included (test_chain.ChainTests) ... ok
+test_boolean_chain_rejected (test_chain.ChainTests) ... ok
+test_calldata_bound (test_chain.ChainTests) ... ok
+test_concurrent_collection_rejected (test_chain.ChainTests) ... ok
+test_contract_creation_not_approval (test_chain.ChainTests) ... ok
+test_demo_exact_values_and_replay (test_chain.ChainTests) ... ok
+test_duplicate_transaction_rejected (test_chain.ChainTests) ... ok
+test_future_collection_rejected_on_replay (test_chain.ChainTests) ... ok
+test_hash_tamper_rejected (test_chain.ChainTests) ... ok
+test_historical_finalized_transaction_accepted (test_chain.ChainTests) ... ok
+test_invalid_status_rejected (test_chain.ChainTests) ... ok
+test_invalid_user_inputs (test_chain.ChainTests) ... ok
+test_missing_blob_price_rejected (test_chain.ChainTests) ... ok
+test_missing_field_rejected (test_chain.ChainTests) ... ok
+test_missing_receipt_rejected (test_chain.ChainTests) ... ok
+test_mocked_latest_rpc_path_and_cache (test_chain.ChainTests) ... ok
+test_mocked_specific_hash_and_canonical_membership (test_chain.ChainTests) ... ok
+test_nonblob_receipt_blob_rejected (test_chain.ChainTests) ... ok
+test_old_receipt_replay_uses_collection_time (test_chain.ChainTests) ... ok
+test_overused_gas_rejected (test_chain.ChainTests) ... ok
+test_pending_transaction_rejected (test_chain.ChainTests) ... ok
+test_precise_integer_and_ratio_math (test_chain.ChainTests) ... ok
+test_receipt_block_mismatch_rejected (test_chain.ChainTests) ... ok
+test_receipt_index_mismatch_rejected (test_chain.ChainTests) ... ok
+test_receipt_transaction_mismatch_rejected (test_chain.ChainTests) ... ok
+test_recomputed_hash_cannot_hide_derived_tampering (test_chain.ChainTests) ... ok
+test_size_bound (test_chain.ChainTests) ... ok
+test_stale_checkpoint_rejected (test_chain.ChainTests) ... ok
+test_unfinalized_rejected (test_chain.ChainTests) ... ok
+test_unknown_snapshot_fields_rejected (test_chain.ChainTests) ... ok
+test_wrong_canonical_member_rejected (test_chain.ChainTests) ... ok
+test_wrong_chain_rejected (test_chain.ChainTests) ... ok
+test_zero_denominator_rejected (test_chain.ChainTests) ... ok
+test_bad_host (test_http.HttpTests) ... ok
+test_bad_origin (test_http.HttpTests) ... ok
+test_body_limit (test_http.HttpTests) ... ok
+test_cross_site (test_http.HttpTests) ... ok
+test_demo_then_verify_http (test_http.HttpTests) ... ok
+test_health_and_catalog (test_http.HttpTests) ... ok
+test_invalid_public_origin (test_http.HttpTests) ... ok
+test_malformed_and_invalid_hash (test_http.HttpTests) ... ok
+test_post_requires_origin (test_http.HttpTests) ... ok
+test_query_and_method_rejected (test_http.HttpTests) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 0.536s
+
+OK
